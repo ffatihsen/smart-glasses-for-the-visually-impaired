@@ -1,0 +1,24 @@
+{"intents": [
+        {"tag": "selamlama",
+         "patterns": ["Merhabalar", "Selamlar", "Nasilsin", "Naber", "Selam","Gunaydin","iyi gunler","nasil gidiyor"],
+         "responses": ["Merhabalar :)", "Seni gordugume sevindim", "Nasil yardimci olabilirim"],
+         "context_set": ""
+        },
+        {"tag": "ayrilma",
+         "patterns": ["by", "gorusuruz", "tekrar gorusmek uzere", "ben gidiyorum", "bay bay"],
+         "responses": ["gorusuruz:(", "tekrar konusmak uzere", "bay bay"],
+         "context_set": ""
+        },
+        {"tag": "bilgi",
+         "patterns": ["Adin ne", "Sana nasil seslenmeliyim","Sana ne demeliyim"],
+          "responses": [ "Bana EyeX diyebilirsin","Ben EyeX"],
+         "context_set": ""
+        },
+        {"tag": "yas",
+         "patterns": ["kac yasindasin", "yasin ne", "yasin kac"],
+         "responses": ["benim yasim yok ama 2021 yilinda uretildim","2021 yilinda uretildim"],
+         "context_set": ""
+        }
+
+ ]
+}
